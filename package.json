@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/webdesserts/alchemist-common/issues"
   },
-  "homepage": "https://github.com/webdesserts/alchemist-common"
+  "homepage": "https://github.com/webdesserts/alchemist-common",
+  "dependencies": {
+    "alchemist-hsl": "^0.1.0",
+    "alchemist-lab": "^0.1.0",
+    "alchemist-rgb": "^0.1.0",
+    "alchemist-xyz": "^0.1.0"
+  }
 }
