@@ -2,8 +2,8 @@ Alchemist-Common
 ================
 
 This is a collection of commonly used color-spaces and color-modifiers curated
-for the `alchemist.js` color library. If you have an issue with an individual
-color-space or modifier, please reference their individual repository.
+for the `alchemist.js` color library. If you have an issue with any of the included
+color-spaces or modifiers, please reference that individual plugin's repository.
 
 Included Plugins
 ----------------
