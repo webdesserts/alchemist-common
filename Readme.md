@@ -27,7 +27,7 @@ Usage
 By default `alchemist-common` is included in `alchemist-js` via the `alchemist.common()` function.
 
 ```js
-  var alchemist = require('alchemist-js')
+  var alchemist = require('alchemist-js').create()
   alchemist.use(alchemist.common())
   var color = alchemize.rgb(255,255,255)
 ```
