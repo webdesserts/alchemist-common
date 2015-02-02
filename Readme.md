@@ -1,9 +1,20 @@
 Alchemist-Common
 ================
 
-This is a collection of commonly used color-spaces and color-modifiers curated
+`alchemist-common` is a collection of commonly used color-spaces and color-methods curated
 for the `alchemist.js` color library. If you have an issue with any of the included
 color-spaces or modifiers, please reference that individual plugin's repository.
+
+Getting Started
+---------------
+To get started with `alchemist-common` it is recommended that use the version
+that comes bundled with alchemist-js. If you would like to test nightly builds
+or have other reasons to include it seperately, `alchemist-common` comes in
+a couple other module formats:
+
+- [npm package](https://github.com/webdesserts/alchemist-common)
+- [UMD Module](/dist/)
+- bundled by default with [alchemist-js](https://github.com/webdesserts/alchemist-js)
 
 Included Plugins
 ----------------
@@ -14,24 +25,12 @@ Included Plugins
 2. [rgb](https://github.com/webdesserts/alchemist-rgb)
 3. [hsl](https://github.com/webdesserts/alchemist-hsl)
 4. [lab](https://github.com/webdesserts/alchemist-lab)
+4. [lchab](https://github.com/webdesserts/alchemist-lchab)
 
-### Modifiers
+### Color Methods
 
-[coming soon]
-
-Usage
------
-
-### Node
-
-By default `alchemist-common` is included in `alchemist-js` via the `alchemist.common()` function.
-
-```js
-  var alchemist = require('alchemist-js')
-  alchemist.use(alchemist.common())
-  var color = alchemize.rgb(255,255,255)
-```
-
-### Web
+> Although color-methods are available as plugins in alchemist already, I have not yet
+> decided on a set of defaults for alchemist-common. Look forward to seeing some
+> added in the coming weeks.
 
 [coming soon]

@@ -1,10 +1,11 @@
 {
   "name": "alchemist-common",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "A collection of commonly used color-spaces and modifiers for use with alchemist.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   },
   "keywords": [
     "alchemist",
+    "alchemist-bundle",
     "color",
     "color-spaces"
   ],
@@ -24,7 +26,17 @@
   "dependencies": {
     "alchemist-hsl": "^0.1.0",
     "alchemist-lab": "^0.1.0",
+    "alchemist-lchab": "^1.0.0",
     "alchemist-rgb": "^0.1.0",
     "alchemist-xyz": "^0.1.0"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-jscs": "^1.4.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-webpack": "^1.2.0",
+    "run-sequence": "^1.0.2"
   }
 }
