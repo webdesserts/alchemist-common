@@ -4,7 +4,7 @@
   "description": "A collection of commonly used color-spaces and modifiers for use with alchemist.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build"
   },
   "repository": {
