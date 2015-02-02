@@ -24,6 +24,7 @@
   "dependencies": {
     "alchemist-hsl": "^0.1.0",
     "alchemist-lab": "^0.1.0",
+    "alchemist-lchab": "^1.0.0",
     "alchemist-rgb": "^0.1.0",
     "alchemist-xyz": "^0.1.0"
   },
