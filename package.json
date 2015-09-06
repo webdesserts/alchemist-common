@@ -1,6 +1,6 @@
 {
   "name": "alchemist-common",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A collection of commonly used color-spaces and modifiers for use with alchemist.js",
   "main": "dist/alchemist-common-node.js",
   "main:src": "index.js",
