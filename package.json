@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/webdesserts/alchemist-common",
   "dependencies": {
-    "alchemist-hsl": "^1.0.0",
-    "alchemist-lab": "^1.0.0",
-    "alchemist-lchab": "^1.0.0",
-    "alchemist-rgb": "^1.0.0",
-    "alchemist-xyz": "^1.0.0"
+    "alchemist-hsl": "^2.0.0",
+    "alchemist-lab": "^2.0.0",
+    "alchemist-lchab": "^2.0.0",
+    "alchemist-rgb": "^2.0.0",
+    "alchemist-xyz": "^2.0.0"
   },
   "devDependencies": {
     "alchemist-gulp": "^1.0.0",
-    "alchemist-js": "^1.0.1",
+    "alchemist-js": "^2.0.0",
     "babel-core": "^5.8.23",
     "gulp": "gulpjs/gulp#4.0"
   }
